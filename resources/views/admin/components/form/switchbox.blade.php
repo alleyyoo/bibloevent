@@ -1,0 +1,1 @@
+<label class="switcher">    <input        type="checkbox"        name="{{ $name }}"        id="{{ $name }}"        {{ $attribute ?? '' }}        {{ old('is_active') || ($model->{$name} ?? false) ? 'checked' : '' }}>    <div class="switcher__indicator"></div>    <span>{{ $label ?? '' }}</span></label>

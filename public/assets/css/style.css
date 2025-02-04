@@ -1,0 +1,75 @@
+:root {
+    --primary: #003773 !important;
+    --secondary: #f26548 !important;
+    --tertiary: #ededed;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham ScreenSmart/GothamSSm-Medium.otf') format('opentype');
+}
+
+body {
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: lighter;
+    color: var(--primary);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.event-header {
+    margin: 2rem 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 5px solid var(--primary);
+    color: var(--secondary);
+    font-weight: bolder;
+    font-size: 1rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.footer {
+    margin-top: 5rem;
+    height: 20rem;
+    background-color: var(--primary);
+    border-top-right-radius: 200px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-right: 5rem;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    font-size: 2.5rem;
+}
