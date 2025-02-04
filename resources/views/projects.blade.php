@@ -104,7 +104,7 @@
 
         .project-card-content {
             position: absolute;
-            left: 0;
+            left: -10px;
             top: 30%;
             background-color: white;
             width: 50%;

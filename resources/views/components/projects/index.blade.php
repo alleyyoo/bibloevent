@@ -82,7 +82,7 @@
 
         .project-card-content {
             padding: 2rem;
-            height: 15rem;
+            height: 18rem;
         }
 
         .projects-year {
