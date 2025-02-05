@@ -42,6 +42,30 @@
             color: var(--primary);
             margin-top: 2rem;
         }
+
+        @media only screen and (max-width: 767px) {
+            .year-content {
+                font-size: 1rem;
+                padding: 1rem 2rem;
+            }
+
+            .title {
+                font-size: 2rem;
+                margin-top: 1rem;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            .year-content {
+                font-size: 1rem;
+                padding: 1rem 2rem;
+            }
+
+            .title {
+                font-size: 2rem;
+                margin-top: 1rem;
+            }
+        }
     </style>
 @endpush
 

@@ -11,7 +11,7 @@
             <div class="see-more">
                 <a href="{{ \Illuminate\Support\Facades\URL::to('/').'/'.app()->getLocale().'/'.($projects->slug ?? '/') }}">Tümünü Gör</a>
             </div>
-            <div class="row">
+            <div class="row projects-box">
                 @foreach($projects->childs->take(3) as $key => $project)
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <a href="{{ \Illuminate\Support\Facades\URL::to('/').'/'.app()->getLocale().'/'.($project->slug ?? '/') }}">
@@ -131,6 +131,123 @@
             line-clamp: 3; /* En fazla 3 satır */
             -webkit-line-clamp: 3; /* En fazla 3 satır (Safari desteği için) */
             margin-top: 1rem;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .projects {
+                padding: 1rem;
+            }
+
+            .projects-title-content {
+                width: 100%;
+            }
+
+            .project-alt-title {
+                font-size: 1.5rem;
+            }
+
+            .projects-title {
+                font-size: 2rem;
+            }
+
+            .see-more {
+                font-size: 1rem;
+            }
+
+            .project-card {
+                margin-bottom: 2rem;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            .projects {
+                padding: 1rem;
+            }
+
+            .projects-title-content {
+                width: 100%;
+            }
+
+            .project-alt-title {
+                font-size: 1.5rem;
+            }
+
+            .projects-title {
+                font-size: 2rem;
+            }
+
+            .see-more {
+                font-size: 1rem;
+            }
+
+            .project-card {
+                margin-bottom: 2rem;
+            }
+
+            .project-card-title {
+                font-size: 1rem;
+            }
+
+            .project-card-content {
+                padding: 1rem;
+                height: 12rem;
+            }
+
+            .projects-year {
+                font-size: 1rem;
+                padding: 1rem ;
+            }
+
+            .projects .row {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .projects-box {
+                display: flex;
+                flex-direction: row !important;
+                width: 100% !important;
+            }
+
+            .projects .col-lg-7 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+            .project-alt-title {
+                font-size: 1.5rem;
+            }
+
+            .projects-title {
+                font-size: 2rem;
+            }
+
+            .see-more {
+                font-size: 1rem;
+            }
+
+            .projects-desc {
+                font-size: 1rem;
+            }
+
+            .projects-title-content {
+                width: 100%;
+            }
+
+            .project-card-title {
+                font-size: 1rem;
+            }
+
+            .project-card-content {
+                padding: 1rem;
+                height: 12rem;
+            }
+
+            .projects-year {
+                font-size: 1rem;
+                padding: 1rem ;
+            }
         }
     </style>
 @endpush

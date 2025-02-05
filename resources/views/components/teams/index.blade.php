@@ -80,6 +80,103 @@
             font-size: 2rem;
             color: var(--secondary);
         }
+
+        @media only screen and (max-width: 767px) {
+            .teams {
+                padding: 1rem;
+            }
+
+            .teams-title {
+                font-size: 2rem;
+            }
+
+            .teams-desc {
+                font-size: 1rem;
+            }
+
+            .teams-images {
+                margin-top: 2rem;
+                padding: 1rem;
+            }
+
+            .team-info h4 {
+                font-size: 2rem;
+            }
+
+            .team-info p {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            .teams {
+                padding: 1rem;
+            }
+
+            .teams-title {
+                font-size: 2rem;
+            }
+
+            .teams-desc {
+                font-size: 1rem;
+            }
+
+            .teams-images {
+                margin-top: 2rem;
+                padding: 1rem;
+            }
+
+            .team {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .team-info h4 {
+                font-size: 2rem;
+            }
+
+            .team-info p {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+            .teams-title {
+                font-size: 2rem;
+            }
+
+            .teams-desc {
+                font-size: 1rem;
+            }
+
+            .teams-images {
+                margin-top: 2rem;
+                padding: 1rem;
+
+            }
+
+            .team-image {
+                width: 15rem;
+                height: 15rem;
+            }
+
+            .team {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .team-info h4 {
+                font-size: 2rem;
+            }
+
+            .team-info p {
+                font-size: 1.5rem;
+            }
+        }
     </style>
 @endpush
 
@@ -94,11 +191,14 @@
                     items: 1
                 },
                 600: {
-                    items: 3
+                    items: 1
                 },
-                1000: {
-                    items: 5
+                1024: {
+                    items: 2
                 },
+                1280: {
+                    items: 4
+                }
 
             }
         })

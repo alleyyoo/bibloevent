@@ -92,5 +92,118 @@
             color: var(--primary);
             margin-top: 1rem;
         }
+
+        @media only screen and (max-width: 767px) {
+            .contact {
+                margin-top: 2rem;
+            }
+
+            .row {
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 1rem;
+            }
+
+            .contact-text {
+                justify-content: start;
+                align-items: start;
+            }
+
+            .contact-alt-title {
+                font-size: 1.5rem;
+            }
+
+            .contact-title {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            .wp-info {
+                width: 100%;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+
+            .email-info {
+                width: 100%;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+
+            .fa-whatsapp {
+                font-size: 3rem;
+            }
+
+            .fa-envelope {
+                font-size: 3rem;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            .contact-text {
+                justify-content: start;
+                align-items: start;
+            }
+
+            .contact-alt-title {
+                font-size: 1.5rem;
+            }
+
+            .contact-title {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            .wp-info {
+                width: 100%;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+
+            .email-info {
+                width: 100%;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+
+            .fa-whatsapp {
+                font-size: 3rem;
+            }
+
+            .fa-envelope {
+                font-size: 3rem;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+            .contact-alt-title {
+                font-size: 1.5rem;
+            }
+
+            .contact-title {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+
+            .wp-info {
+                width: 100%;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+
+            .email-info {
+                width: 100%;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+
+            .fa-whatsapp {
+                font-size: 3rem;
+            }
+
+            .fa-envelope {
+                font-size: 3rem;
+            }
+        }
     </style>
 @endpush

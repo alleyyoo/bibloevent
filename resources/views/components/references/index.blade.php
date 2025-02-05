@@ -16,6 +16,13 @@
             padding: 5rem;
             margin-top: 5rem;
         }
+
+        @media only screen and (max-width: 767px) {
+            .references {
+                padding: 1rem;
+                margin-top: 2rem;
+            }
+        }
     </style>
 @endpush
 

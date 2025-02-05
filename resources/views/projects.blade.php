@@ -138,5 +138,103 @@
         .project-card-desc {
             margin-top: 2rem;
         }
+
+        @media only screen and (max-width: 767px) {
+            .projects-title-content {
+                margin-top: 1rem;
+            }
+
+            .project-alt-title {
+                font-size: 1.5rem;
+            }
+
+            .projects-title {
+                font-size: 2rem;
+            }
+
+            .projects-desc {
+                font-size: 1rem;
+            }
+
+            .projects-year {
+                left: 0;
+            }
+
+            .projects-year {
+                padding: 1rem 2rem;
+                font-size: 1.5rem;
+            }
+
+            .project-card-content {
+                bottom: 0;
+                left: 0;
+            }
+
+            .project-card-title {
+                font-size: 1.5rem;
+            }
+
+            .project-card-desc {
+                margin-top: 1rem;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            .projects-title-content {
+                margin-top: 1rem;
+            }
+
+            .project-alt-title {
+                font-size: 1.5rem;
+            }
+
+            .projects-title {
+                font-size: 2rem;
+            }
+
+            .projects-desc {
+                font-size: 1rem;
+            }
+
+            .projects-year {
+                left: 0;
+            }
+
+            .projects-year {
+                padding: 1rem 2rem;
+                font-size: 1.5rem;
+            }
+
+            .project-card-content {
+                bottom: 0;
+                left: 0;
+            }
+
+            .project-card-title {
+                font-size: 1.5rem;
+            }
+
+            .project-card-desc {
+                margin-top: 1rem;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+            .projects-title-content {
+                margin-top: 1rem;
+            }
+
+            .project-alt-title {
+                font-size: 1.5rem;
+            }
+
+            .projects-title {
+                font-size: 3rem;
+            }
+
+            .projects-desc {
+                font-size: 1rem;
+            }
+        }
     </style>
 @endpush

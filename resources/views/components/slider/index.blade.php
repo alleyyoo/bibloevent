@@ -207,6 +207,128 @@ function boldFirstTwoWords($text) {
             background-color: var(--tertiary);
             border-top-left-radius: 150px;
         }
+
+        @media only screen and (max-width: 767px) {
+            .video-container {
+                display: none;
+            }
+
+            .slider-title {
+                font-size: 1rem;
+                bottom: 0;
+                left: 0;
+            }
+
+            .slider-description {
+                width: 100%;
+                bottom: -48px;
+                font-size: 1rem;
+                padding: 1rem;
+                height: 3rem;
+            }
+
+            .aboutus {
+                padding-top: 3rem;
+                border-bottom:  1px solid var(--primary);
+                padding-bottom: 3rem;
+            }
+
+            .aboutus h3 {
+                font-size: 2rem;
+            }
+
+            .about-divider {
+                display: none;
+            }
+
+            .about-container {
+                margin-bottom: 2rem;
+            }
+        }
+
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            .video-container {
+                height: 10rem;
+                padding: 1rem;
+            }
+
+            .play-button {
+                width: 3rem;
+                height: 3rem;
+            }
+
+            .fa-solid {
+                font-size: 1rem;
+            }
+
+            .slider-title {
+                font-size: 1rem;
+                bottom: 0;
+                left: 0;
+            }
+
+            .slider-description {
+                width: 100%;
+                bottom: -48px;
+                font-size: 1rem;
+                padding: 1rem;
+                height: 3rem;
+            }
+
+            .aboutus {
+                padding-top: 10rem;
+                border-bottom:  1px solid var(--primary);
+                padding-bottom: 3rem;
+            }
+
+            .aboutus h3 {
+                font-size: 2rem;
+            }
+
+            .about-divider {
+                display: none;
+            }
+
+            .about-container {
+                margin-bottom: 2rem;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+            .video-container {
+                height: 20rem;
+            }
+
+            .play-button {
+                width: 3rem;
+                height: 3rem;
+            }
+
+            .fa-solid {
+                font-size: 1rem;
+            }
+
+            .slider-title {
+                font-size: 2.5rem;
+            }
+
+            .slider-description {
+                font-size: 1.5rem;
+            }
+
+            .aboutus h3 {
+                font-size: 2rem;
+            }
+
+            .about-divider-right {
+                height: 100px;
+            }
+
+            .about-divider-left {
+                height: 100px;
+            }
+        }
     </style>
 @endpush
 

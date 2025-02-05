@@ -4,6 +4,10 @@
     @include('components.slider.index')
     @include('components.projects.index')
     @include('components.references.index')
-    @include('components.teams.index')
-    @include('components.contact.index')
+    <div id="teams">
+        @include('components.teams.index')
+    </div>
+    <div id="contact">
+        @include('components.contact.index')
+    </div>
 @endsection

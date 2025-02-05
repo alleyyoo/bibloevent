@@ -73,3 +73,11 @@ a {
     color: white;
     font-size: 2.5rem;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        border-top-right-radius: 0 !important;
+    }
+}
+
